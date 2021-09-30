@@ -18,9 +18,52 @@ text-align:center;
     margin-left: 400px;
     margin-top: 300px;
     font-size: 85px;}
+	
+.navbar{
+background-color:#68bbc2;}
+
+.navbar a{
+float:center;
+color:white;
+font-size:20px;}
+
+.dropdown{
+float:center;
+}
+.dropdown.text{
+font-size:20px;
+color:white;
+background-color:#68bbc2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#68bbc2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
 </style>
 <body>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">Offers</a>
+  <div class="dropdown">
+    <button class="text">Women
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Krutis</a>
+      <a href="#">Cholis</a>
+      <a href="#">Hoddies</a>
+    </div>
+  </div> 
+</div>
 <h2>G L A M    U P</h2>
+
 
 </body>
 </html>
