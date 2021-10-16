@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
 ecommerce
 </title>
@@ -90,8 +89,21 @@ margin-top:15px;
 margin-lef:-15px;
 margin:10px;}
 
+
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
 </style>
 <body>
+
 
 <div class="menubar">
 <img src="logo.jpg" style="margin-top: 12px;float: left;width: 70px;height: 70px; margin-left: 12px;margin-bottom: 12px;">
@@ -113,6 +125,7 @@ margin:10px;}
 <li><a href="#">Caps</a></li>
 </ul>
 </div>
+
 
 
 <div class="bg"></div>
@@ -148,9 +161,6 @@ margin:10px;}
 
 <center style="padding:30px;"><p><img src="kid3.jpg" style="width:200px;height:300px;"><h6>Fresh</h6><br><p>Plain red gold<br>Rs.1400s style="padding:10px;">Rs.2000</s></p></center>
 </div>
-
-
-
 
 </body>
 </html>
